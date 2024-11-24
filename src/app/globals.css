@@ -17,6 +17,7 @@
 }
 
 body {
+  overflow-y: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +25,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+canvas{
+  /* position: fixed; */
+  width: 100vw;
+  height: 100vh;
+  
 }
